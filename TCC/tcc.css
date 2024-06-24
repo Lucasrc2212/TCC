@@ -1,0 +1,145 @@
+img{
+    margin-top: 0;
+    width: 70px;
+    height: 70px;
+}
+
+body{
+    margin: 0;
+    margin-top: 58px;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 2px orangered solid;
+}
+
+.navbar{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.navbar > div{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin-top:10px ;
+    width: 100px;
+    font-size: 20px;
+ 
+}
+.navbar > div > a{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid orangered;
+}
+.navbar > div > a:hover{
+    background-color: rgb(228, 95, 47);
+}
+
+.navbar:hover >div{
+    display: flex;
+}
+
+
+input{
+    border-radius: px;
+    margin-left: 18px;
+    height: 50px;
+    width: 510px;
+    padding-left: 10px;
+}
+
+.pesquisa{
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(33, 33, 33);
+    border-radius: 50px;
+    padding: 0 10px;
+    border: 1px solid orangered;
+
+
+    > input{
+        border: none;
+    }
+}
+p{
+    font-family: sans-serif;
+    margin-left: 10px;
+    
+    a{
+        text-decoration: none;
+        color: rgb(54, 54, 54);
+    }
+    a:hover{
+        color: orangered;
+    }
+}
+
+i{
+    margin-left: 20px;
+    width: 18px;
+    height: 18px;
+    color: orangered;
+    font-size: 50px;
+}
+i:hover{
+    color: orangered;
+}
+
+.receita{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    width: 230px;
+    height: 150px;
+    border-radius: 9px;
+    border: orangered 1px solid;
+}
+
+.cards{
+    padding: 25px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+     
+    a{
+        text-decoration: none;
+        gap: 4px;
+    }
+}
+
+.descricao{
+    width: 230px;
+    color: rgb(34, 34, 34);
+}
+.pessoa{
+    color: rgb(59, 59, 59);
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.coracao{
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    display: block;
+}
+
