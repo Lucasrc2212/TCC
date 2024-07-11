@@ -21,6 +21,8 @@ nav{
     width: 100%;
     top: 0;
     border-bottom: 2px orangered solid;
+    flex-wrap: wrap;
+    position: fixed;
 }
 
 .navbar{
@@ -104,9 +106,38 @@ i:hover{
     color: orangered;
 }
 
+.opcoes{
+    border-top: solid 1px rgb(177, 177, 177);
+    font-size: 25px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    flex-direction: row;
+   
+    
+    a{
+        text-decoration: none;
+
+        label{
+            margin-left: 25px;
+            margin-right: 25px;
+            color: rgb(88, 88, 88);
+            font-size: 15px;
+        }
+
+        
+    }
+    a :hover{
+        color: orangered;
+    }
+}
+
 .receita{
     display: flex;
     flex-direction: column;
+    margin-left: 55px;
+    
+
 }
 
 .foto{
@@ -118,9 +149,11 @@ i:hover{
 
 .cards{
     padding: 25px;
-    padding-top: 40px;
+    margin-top: 128px;
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
+    gap: 13px;
      
     a{
         text-decoration: none;
@@ -138,8 +171,7 @@ i:hover{
     font-size: 13px;
 }
 .coracao{
-    font-size: 15px;
-    color: rgb(34, 34, 34);
-    display: block;
+    display: inline;
 }
+
 
